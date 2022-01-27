@@ -1,0 +1,82 @@
+[INFO] [1643001319.449861, 0.000000]: Loading model XML from ros parameter robot_description
+[INFO] [1643001319.456124, 0.000000]: Waiting for service /gazebo/spawn_urdf_model
+[INFO] [1643001320.361214, 0.000000]: Calling service /gazebo/spawn_urdf_model
+[INFO] [1643001320.715250, 0.153000]: Spawn status: SpawnModel: Successfully spawned entity
+... logging to /home/nick/.ros/log/9ea947e0-7cd4-11ec-bda6-d46e0e0d4793/roslaunch-nick-MS-7B79-29505.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/melodic/share/fetch_gazebo/launch/simulation.launch
+[1mstarted roslaunch server http://nick-MS-7B79:35411/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /base_controller/autostart: True
+ * /base_controller/max_acceleration_x: 1.5
+ * /base_controller/max_velocity_x: 2.0
+ * /base_controller/type: robot_controllers...
+ * /gazebo/default_controllers: ['base_controller']
+ * /gazebo/enable_ros_network: True
+ * /gazebo/l_wheel_joint/effort_limit: 8.85
+ * /gazebo/l_wheel_joint/position/d: 0.0
+ * /gazebo/l_wheel_joint/position/i: 0.0
+ * /gazebo/l_wheel_joint/position/i_clamp: 0.0
+ * /gazebo/l_wheel_joint/position/p: 0.0
+ * /gazebo/l_wheel_joint/velocity/d: 0.0
+ * /gazebo/l_wheel_joint/velocity/i: 0.5
+ * /gazebo/l_wheel_joint/velocity/i_clamp: 6.0
+ * /gazebo/l_wheel_joint/velocity/p: 8.85
+ * /gazebo/r_wheel_joint/effort_limit: 8.85
+ * /gazebo/r_wheel_joint/position/d: 0.0
+ * /gazebo/r_wheel_joint/position/i: 0.0
+ * /gazebo/r_wheel_joint/position/i_clamp: 0.0
+ * /gazebo/r_wheel_joint/position/p: 0.0
+ * /gazebo/r_wheel_joint/velocity/d: 0.0
+ * /gazebo/r_wheel_joint/velocity/i: 0.5
+ * /gazebo/r_wheel_joint/velocity/i_clamp: 6.0
+ * /gazebo/r_wheel_joint/velocity/p: 8.85
+ * /publish_base_scan_raw/lazy: True
+ * /robot/serial: XWVUTSRQPONMLKJIH...
+ * /robot/version: 0.0.1
+ * /robot_description: <?xml version="1....
+ * /robot_state_publisher/publish_frequency: 100.0
+ * /rosdistro: melodic
+ * /rosversion: 1.14.11
+ * /use_sim_time: True
+
+NODES
+  /
+    cmd_vel_mux (topic_tools/mux)
+    gazebo (gazebo_ros/gzserver)
+    gazebo_gui (gazebo_ros/gzclient)
+    publish_base_scan_raw (topic_tools/relay)
+    robot_state_publisher (robot_state_publisher/robot_state_publisher)
+    urdf_spawner (gazebo_ros/spawn_model)
+
+auto-starting new master
+[1mprocess[master]: started with pid [29518][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/opt/ros/melodic/share/fetch_gazebo/launch/simulation.launch http://localhost:11311
+[1msetting /run_id to 9ea947e0-7cd4-11ec-bda6-d46e0e0d4793[0m
+[1mprocess[rosout-1]: started with pid [29529][0m
+started core service [/rosout]
+[1mprocess[gazebo-2]: started with pid [29536][0m
+[1mprocess[gazebo_gui-3]: started with pid [29541][0m
+[1mprocess[robot_state_publisher-4]: started with pid [29546][0m
+[1mprocess[urdf_spawner-5]: started with pid [29547][0m
+[1mprocess[publish_base_scan_raw-6]: started with pid [29548][0m
+[1mprocess[cmd_vel_mux-7]: started with pid [29554][0m
+[1m[urdf_spawner-5] process has finished cleanly
+log file: /home/nick/.ros/log/9ea947e0-7cd4-11ec-bda6-d46e0e0d4793/urdf_spawner-5*.log[0m
+[cmd_vel_mux-7] killing on exit
+[robot_state_publisher-4] killing on exit
+[publish_base_scan_raw-6] killing on exit
+[gazebo_gui-3] killing on exit
+[gazebo-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
