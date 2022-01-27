@@ -6,9 +6,11 @@ Of note, stacking may require a few different runs as the robots recovery behavi
 
 # Instructions:
 
-To run this package, first put it inside of a workspace, and change directory into indep_ws.
+To run this package, first clone the repository at https://github.com/fetchrobotics/fetch_gazebo into a workspace
 
-Next, run $ catkin build  and then run $ source devel/setup.bash
+Next, move all files within the src directory of this repository into that cloned repository, replacing any conflicts.
+
+Next, run $ catkin build  and then run $ source devel/setup.bash  in the directory root.
 
 Then, run $ roslaunch fetch_gazebo playground.launch
 
