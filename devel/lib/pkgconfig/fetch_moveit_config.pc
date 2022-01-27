@@ -1,0 +1,1 @@
+/home/nick/indep_ws/devel/.private/fetch_moveit_config/lib/pkgconfig/fetch_moveit_config.pc
