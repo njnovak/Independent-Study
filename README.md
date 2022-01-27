@@ -4,6 +4,8 @@ This package is used to run a modified version of the fetch gazebo package. In t
 
 Of note, stacking may require a few different runs as the robots recovery behavior can occur when it should not and prevent it from arriving at the right pose.
 
+Video: https://www.youtube.com/watch?v=4dMpv_vZ6yo
+
 # Instructions:
 
 To run this package, first clone the repository at https://github.com/fetchrobotics/fetch_gazebo into a workspace
