@@ -262,7 +262,7 @@ if __name__ == "__main__":
     for i in range(2):
         # Go to second block. New rotation added.
         if i == 0:
-            rospy.loginfo("Moving to third table...")
+            rospy.loginfo("Moving to first table...")
             move_base.goto(4.250, -6.118, 0.5)
             move_base.goto(4.950, -6.188, 0.5)
 
@@ -270,7 +270,7 @@ if __name__ == "__main__":
             # Point the head at the cube we want to pick
             head_action.look_at(5.8, -6, -0.5, "map")
         elif i == 1:
-            rospy.loginfo("Moving to first table...")
+            rospy.loginfo("Moving to third table...")
             move_base.goto(1, 1, 0.0)
             move_base.goto(2.250, 3.118, 0.0)
             move_base.goto(2.975, 3.118, 0.0)
